@@ -1,0 +1,65 @@
+ body {
+            background-color: #F7FBFF;
+        }
+        #Service {
+            position: fixed;
+            top: 12px;
+            left: 1100px;
+            z-index: 1;
+        }
+        #Code {
+            position: fixed;
+            top: 12px;
+            left: 1200px;
+            z-index: 1;
+        }
+        #Contact {
+            position: fixed;
+            top: 12px;
+            left: 1300px;
+            z-index: 1;
+        }
+        #About {
+            position: fixed;
+            top: 12px;
+            left: 1400px;
+            z-index: 1;
+        }
+        #NavBar {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            background-color: #323232;
+            padding: 20px 20px 20px 20px;
+        }
+        #ImgOne {
+            position: absolute;
+            top: 100px;
+            left: 200px;
+        }
+        #ImgTwo {
+            position: absolute;
+             top: 100px;
+            left: 600px;
+        }
+        #ImgThree {
+            position: absolute;
+             top: 100px;
+            left: 1000px;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:link {
+            color: #fff;
+        }
+        a:active {
+            color: #fff;
+        }
+        a:hover {
+            color: #6699FF;
+        }
+        a:visited {
+            color: #fff;
+        }

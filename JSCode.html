@@ -1,0 +1,238 @@
+<html>
+<link rel="stylesheet" href="JSCode.css" title="style1" media="screen" />
+
+<body>
+
+
+    <div id='Nav'>
+        <div id='SC' onclick='clickSC()'>
+            <li>
+                <gg style=t ext-decoration:none href='#'>Program</gg>
+            </li>
+
+
+        </div>
+        <div id='Prg' onclick='clickPrg()'>
+            <li>
+                <gg style=t ext-decoration:none href='#'>Code</gg>
+            </li>
+
+
+        </div>
+        <div id='Donate' onclick='clickDonate()'>
+            <li>
+
+
+                <gg style=t ext-decoration:none href='#'>Donate</gg>
+            </li>
+        </div>
+
+
+        <div id='About' onclick='clickAbout()'>
+            <li>
+
+
+                <gg style=t ext-decoration:none href='#'>About</gg>
+            </li>
+        </div>
+
+
+        <div id='HoverEffect'></div>
+    </div>
+
+
+    <div class='Header'>
+    </div>
+
+
+    <div class='Name'>
+    </div>
+
+
+    <div class='Details'>
+    </div>
+
+
+    <div onclick="jsPrank()" onmouseout="jsPrankList()" onmouseover="jsPrankFunction()" id='JSPrank'>
+        <p>JSPrank</p>
+    </div>
+
+
+    <div onclick="webRand()" onmouseout="webRandList()" onmouseover="webRandFunction()" id='WebRand'>
+        <p>WebRand</p>
+    </div>
+
+
+    <div onclick="keyChrome()" onmouseout="keyChromeList()" onmouseover="keyChromeFunction()" id='KeyChrome'>
+        <p>KeyChrome</p>
+    </div>
+
+    <div onclick="bingCheats()" onmouseout="bingCheatsList()" onmouseover="bingCheatsFunction()" id='BingCheats'>
+        <p>BingCheats</p>
+
+
+    </div>
+    <div onmouseout="openFunctionList()" onmouseover="openFunction()" id="Open">
+
+    </div>
+    <img id='Twitter' onclick='sendTwitter()' onmouseover='onTwitterOne()' onmouseout='onTwitterTwo()' src='Twitter1.png' width='50' height='50'></img>
+    <img id='GitHub' onclick='sendGithub()' onmouseover='onGithubOne()' onmouseout='onGithubTwo()' src='GitHub1..png' width='50' height='50'></img>
+    <img id='logoOne' src='Logo.png' width='400' height='400'></img>
+    <img id='LogoTwo' src='Logo.png' width='400' height='400'></img>
+    <img id='Main' src='mainImg1.PNG'></img>
+<<<<<<< HEAD
+    <div id='' ; </div>
+=======
+>>>>>>> origin/master
+        <script>
+            var Github = 'http://www.github.com/AzuraDev';
+            var Twitter = 'http://www.twitter.com/azuradev';
+
+            function clickSC() {
+                window.scrollTo(0, 360);
+            }
+
+            function clickPrg() {
+                window.scrollTo(0, 1600);
+            }
+
+            function clickDonate() {
+                window.scrollTo(0, 2400);
+            }
+
+            function clickAbout() {
+                window.scrollTo(0, 3200);
+            }
+             //Navigation Bar Buttons
+            function onGithubOne() {
+                var img = document.getElementById('GitHub');
+                if (img.src.match('GitHub1..png')) {
+                    img.src = 'GitHub.png';
+                }
+            }
+
+            function onGithubTwo() {
+                var img = document.getElementById('GitHub');
+                img.src = 'GitHub1..png';
+            }
+
+            function sendGithub() {
+                window.scrollTo(0, 0);
+                window.open(Github);
+            }
+
+            function onTwitterOne() {
+                var img = document.getElementById('Twitter');
+                if (img.src.match('Twitter1.png')) {
+                    img.src = 'Twitter.png';
+                }
+            }
+
+            function onTwitterTwo() {
+                var img = document.getElementById('Twitter');
+                img.src = 'Twitter1.png';
+            }
+
+
+            function sendTwitter() {
+                window.scrollTo(0, 0);
+                window.open(Twitter);
+            }
+
+             //Social Media Buttons
+
+            function jsPrankFunction() {
+                document.getElementById('JSPrank').style.backgroundColor = '#4d575b';
+            }
+
+            function jsPrankList() {
+                document.getElementById('JSPrank').style.backgroundColor = '#222222';
+            }
+
+            function jsPrank() {
+                window.scrollTo(0, 1600);
+            }
+             //Above Is Script For The JSPrank Button
+
+            function webRandFunction() {
+                document.getElementById('WebRand').style.backgroundColor = '#2e3444';
+            }
+
+            function webRandList() {
+                document.getElementById('WebRand').style.backgroundColor = '#2e3435';
+            }
+
+            function webRand() {
+                window.scrollTo(0, 1600);
+            }
+
+
+             //Above Is Script For WebRandomizer Button
+            function keyChromeFunction() {
+                document.getElementById('KeyChrome').style.backgroundColor = '#222221';
+            }
+
+            function keyChromeList() {
+                document.getElementById('KeyChrome').style.backgroundColor = '#4d575a';
+            }
+
+            function keyChrome() {
+                window.scrollTo(0, 1600);
+            }
+
+             //Above Is Script For KeyChrome Button
+            function bingCheatsFunction() {
+                document.getElementById('BingCheats').style.backgroundColor = '#4d5564';
+            }
+
+            function bingCheatsList() {
+                document.getElementById('BingCheats').style.backgroundColor = '#575757';
+            }
+
+            function bingCheats() {
+                window.scrollTo(0, 1600);
+            }
+             //Above Is Script For BingCheats
+
+
+            function openFunction() {
+                document.getElementById('Open').style.padding = '55px 55px 155px 55px';
+            }
+
+            function openFunctionList() {
+                document.getElementById('Open').style.padding = '55px 55px 6px 55px';
+            }
+            //Info Button
+
+            var pathList = 0;
+            var picList = new Array();
+            picList[0] = 'mainImg1.PNG';
+            picList[1] = 'mainImg2.png';
+            picList[2] = 'mainImg3.png';
+            picList[3] = 'mainImg1.PNG';
+            picList[4] = 'mainImg2.png';
+            picList[5] = 'mainImg3.png';
+
+            function pathAdd() {
+                document.getElementById('Main').src = picList[pathList];
+                if (pathList < picList.length - 1) pathList++;
+                else pathList = 0;
+                setTimeout("pathAdd()", 2000);
+            }
+             //SlideShow For Website
+
+            window.onload = pathAdd;
+            var bodyType = document.body.style.background;
+            var webList = new Array();
+            webList[0] = bodyType = "#e6ecfe";
+            webList[1] = bodyType = "#f2f2f2";
+            webList[2] = bodyType = "#ffffff";
+            var webListSelector = Math.floor(Math.random() * webList.length);
+            document.body.style.background = webList[webListSelector];
+             //Changes The Background
+        </script>
+        <p id='Great'>p</p>
+
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+body {
+    background-color: #f7fdff;
+}
+#Nav {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    color: #ffffff;
+}
+#SC {
+    position: fixed;
+    top: 30px;
+    right: 400px;
+      z-index: 3;
+}
+#Prg {
+position: fixed;
+    top: 30px;
+    right: 300px;
+      z-index: 3;
+} 
+#Donate {
+position: fixed;
+    top: 30px;
+    right: 200px;
+      z-index: 3;
+} 
+#About {
+position: fixed;
+    top: 30px;
+    right: 100px;
+          z-index: 3;
+}
+.Header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #2e3435;
+    padding: 50px 50px 25px 50px;
+    z-index: 2;
+}
+.Name {
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    left: 0px;
+    background-color: #4d575a;
+    padding: 50px 50px 135px 50px;
+}
+.Details {
+    position: absolute;
+    top: 230px;
+    right: 0px;
+    left: 0px; 
+    background-color: #7a8c91;
+    padding: 50px 50px 155px 50px;
+}
+#Twitter{
+ position: fixed;
+    top: 14px;
+    left: 10px;
+    z-index: 4;
+}
+#GitHub{
+ position: fixed;
+    top: 14px;
+    left: 100px;
+    z-index: 4;
+}
+#logoOne{
+ position: absolute;
+    top: 230px;
+    left: 40px;
+    right: 430px;
+    z-index: 1;
+}
+#logoTwo{
+ position: absolute;
+    top: 230px;
+    right: 40px;
+    z-index: 1;
+}
+#Main{
+ position: absolute;
+    top: 435px;
+    left: 460px;
+    color: #7a8c91;
+}
+#JSPrank{
+ position: absolute;
+    top: 865px;
+    left: 460px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #222222;
+    padding: 5px 115px 5px 15px;
+}
+#WebRand{
+    position: absolute;
+    top: 865px;
+    left: 640px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #2e3435;
+    padding: 5px 115px 5px 15px;
+}
+#KeyChrome{
+    position: absolute;
+    top: 865px;
+    left: 830px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #4d575a ;
+        padding: 5px 115px 5px 15px;
+}
+#BingCheats{
+    position: absolute;
+    top: 865px;
+    left: 1030px;
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #575757 ;
+        padding: 5px 115px 5px 15px;
+}
+
+#great{
+ position: absolute;
+    top: 10000;
+}
+#Open{
+ position: absolute;
+    top: 865px;
+    left: 1308px;
+    background-color: #4d4d4d;
+    padding: 55px 55px 6px 55px;
+}
+li {
+    display: inline;
+}
+gg:link{
+ color: #ffffff;   
+}
+gg:visited{
+ color: #ffffff;   
+}
+gg:hover{
+ color: #b90000;   
+}
+gg:active{
+    color: #ffffff;
+}
